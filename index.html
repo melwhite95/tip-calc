@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <style>
+
+.body{
+    font-family: sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+    .{
+        color: pink;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+    }
+
+    .input{
+         border: 1px solid pink;
+    }
+     .output{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+      .calc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid pink;
+        font-size: 10px;
+      }
+      .Bill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .Tip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      value{
+          display: flex;
+          justify-content: center;
+          align-items: right;
+      }
+span{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+    </style>
+
+  </head>
+  <body>
+
+
+
+<div class="Bill">
+<p>Bill</p>
+    <p class="input">
+
+
+      <input id="amount" type="number" value="0.00">
+    </p>
+</div>
+
+
+
+<div class="Tip">
+<p>Tip %</p>
+    <p class="input">
+      <input id="percent" type="number" value="10">
+    </p>
+</div>
+
+
+
+<div class="cal">
+    <button id="calculate">Calculate</button>
+</div>
+    <p class="output">
+      <span>Tip Amount: $</span>
+      <span id="tip">0.00</span>
+    </p>
+
+    <p class="output">
+      <span>Total Amount: $</span>
+      <span id="total">0.00</span>
+    </p>
+
+<script src="./script.js"></script>
+  </body>
+</html>
