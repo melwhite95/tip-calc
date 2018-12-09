@@ -18,18 +18,18 @@
     }
 
     .input{
-         border: 1px solid pink;
+
     }
-     .output{
+     .amount{
          display: flex;
          justify-content: center;
          align-items: center;
      }
-      .calc {
+      .calculate {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid pink;
+
         font-size: 10px;
       }
       .Bill {
@@ -41,6 +41,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-right: 20px;
       }
       value{
           display: flex;
@@ -60,39 +61,39 @@ span{
 
 
 
-<div class="Bill">
+<div class = "Bill">
 <p>Bill</p>
-    <p class="input">
+    <p class = "input">
 
 
-      <input id="amount" type="number" value="0.00">
+      <input id = "amount" type = "number" value = "0.00">
     </p>
 </div>
 
 
 
-<div class="Tip">
+<div class = "Tip">
 <p>Tip %</p>
-    <p class="input">
-      <input id="percent" type="number" value="10">
+    <p class = "input">
+      <input id = "percent" type = "number" value = "10">
     </p>
 </div>
 
 
 
-<div class="cal">
-    <button id="calculate">Calculate</button>
+<div class="calculate">
+    <button id = "calculate">Calculate</button>
 </div>
-    <p class="output">
+    <p class = "amount">
       <span>Tip Amount: $</span>
       <span id="tip">0.00</span>
     </p>
 
-    <p class="output">
+    <p class = "amount">
       <span>Total Amount: $</span>
       <span id="total">0.00</span>
     </p>
 
-<script src="./script.js"></script>
+<script src = "./main.js"></script>
   </body>
 </html>
